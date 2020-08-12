@@ -67,6 +67,10 @@ nr1 nerdpack:clone -r https://github.com/newrelic/nr1-customer-journey.git
 cd nr1-customer-journey
 nr1 nerdpack:serve
 ```
+If you get babel-runtime error execute this command 
+```bash
+  npm install --save  babel-runtime
+```
 
 Visit [https://one.newrelic.com/?nerdpacks=local](https://one.newrelic.com/?nerdpacks=local), navigate to the Nerdpack, and :sparkles:
 
